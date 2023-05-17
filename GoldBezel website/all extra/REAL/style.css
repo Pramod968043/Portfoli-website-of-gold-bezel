@@ -1,0 +1,61 @@
+/* Header styles */
+header {
+    background-color: #333;
+    color: rgb(152, 36, 36);
+    padding: 0px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    
+}
+
+/* Logo styles */
+/* .CompanyLogo {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+} */
+
+/* Company name styles */
+/* .CompanyName {
+    max-width: 300px;
+    height: auto;
+} */
+.CompanyName img{
+    width: 300px;
+}
+.CompanyLogo img{
+    width: 150px;
+    padding-top: -50px;
+}
+
+/* Navigation menu styles */
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ccc;
+}

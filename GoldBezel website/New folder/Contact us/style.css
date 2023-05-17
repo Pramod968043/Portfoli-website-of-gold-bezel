@@ -1,0 +1,16 @@
+.navbar {
+    height: 4.5em;
+}
+.navbar {
+    background: #3d3439;
+    border-top: 4px solid #b99d58;
+    border-bottom: 4px solid #b99d58;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    height: 6.5rem;
+    width: 100%;
+}
+.logo{
+   
+}
